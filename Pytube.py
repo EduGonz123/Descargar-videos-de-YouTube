@@ -1,7 +1,6 @@
 import pytube
 import os
 
-//Hacer, hasta que
 while True:
 	os.system("clear")
 	
@@ -19,6 +18,5 @@ while True:
 	
 	pregunta = input("\n¿Desea descargar otro video? (sí = s o no = n): ")
 	
-	//Hasta que
 	if pregunta != "s" or pregunta != "S":
 		break;
