@@ -8,7 +8,7 @@ while True:
 	print(" By: Charly GM")
 	url = input("\n Pegue el link del video que desea descargar: ")
 	
-	caroetaAndroid = "mkdir /sdcard/Descargas CharlyTube"
+	carpetaAndroid = "mkdir /sdcard/Descargas CharlyTube"
 	
 	youtube = pytube.YouTube(url)
 	
